@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+                
+body {
+  background-color: #282828;
+  font-family: 'Product Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.circle {
+  color: #aa8bff;
+}
+.cross {
+  color: #92caff;
+}
+.card {
+  border: none;
+}
+
+.margin {
+  margin: 1.2rem;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.p-3 {
+  color: #282828;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+}
+
+.p-3:hover {
+  color: aquamarine;
+  background-color: #181818;
+  border: none;
+}
